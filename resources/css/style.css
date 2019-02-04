@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
 /*  border: solid 1px white; */
   background-color: black;
 }
@@ -39,12 +40,16 @@ nav a {
   /* Included per design spec */
 }
 
+main {
+  top: 69px;
+  position: relative;
+}
+
 .hero {
   margin: 0 auto;
   background-image: url("../images/img-mission-background.jpg");
   width: 1200px;
   height: 700px;
-  top: 69px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -61,4 +66,26 @@ nav a {
 h2,
 h4 {
   padding: 5px 0;
+}
+
+#featured {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+section {
+  position: relative;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.flex-container img {
+  height: 200px;
+  width: 300px;
+  margin: 10px 15px;
 }
