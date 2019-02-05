@@ -3,6 +3,7 @@
   padding: 0;
 /*  border: solid 1px white; */
   background-color: black;
+  opacity: 0.9;
 }
 
 a,
@@ -65,7 +66,7 @@ main {
 
 h2,
 h4 {
-  padding: 5px 0;
+  padding: 10px 0;
 }
 
 #featured {
@@ -87,5 +88,15 @@ section {
 .flex-container img {
   height: 200px;
   width: 300px;
-  margin: 10px 15px;
+  margin: 10px;
+}
+
+.tea {
+  padding: 5px;
+}
+
+.tea span {
+  display: block;
+  padding-bottom: 5px;
+  font-weight: bold;
 }
