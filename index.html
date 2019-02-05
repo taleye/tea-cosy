@@ -7,11 +7,14 @@
   <link rel="stylesheet" href="./resources/css/style.css">
 </head>
 
-<body>
+<body class="black-90">
 
   <!-- Header content -->
 
-  <header>
+  <!-- Redline wasn't clear on fixed header being set to opacity 0.9 or 1
+      decided on 1 for asthetic reasons (amend class to black-90 for opacity 0.9) -->
+
+  <header class="black">
     <img src="./resources/images/img-tea-cozy-logo.png" alt="Tea Cozy Logo" />
     <nav>
       <a href="#mission">Mission</a>
@@ -20,50 +23,122 @@
     </nav>
   </header>
 
+  <!-- End header -->
+
   <!-- Main content -->
+
   <main>
 
     <!-- Hero banner -->
 
     <section class="hero" id="mission">
-      <div class="hero-copy">
+      <div class="hero-copy black-90">
         <h2>Our Mission</h2>
         <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
       </div>
     </section>
 
+    <!-- End hero -->
+
     <!-- Featured tea section -->
 
     <section id="featured">
+
       <h2>Tea of the Month</h2>
       <h4>What's Steeping at The Tea Cozy</h4>
 
       <div class="flex-container">
+
         <div class="tea">
           <img src="./resources/images/img-berryblitz.jpg" alt="Mug with berries steeping">
           <span>Fall Berry Blitz Tea</span>
         </div>
+
         <div class="tea">
           <img src="./resources/images/img-spiced-rum.jpg" alt="Box of loose tea">
           <span>Spiced Rum Tea</span>
         </div>
+
         <div class="tea">
           <img src="./resources/images/img-donut.jpg" alt="Tasty donut">
           <span>Seasonal Donuts</span>
         </div>
+
         <div class="tea">
           <img src="./resources/images/img-myrtle-ave.jpg" alt="Teabag steeping in cup">
           <span>Myrtle Ave Tea</span>
         </div>
+
         <div class="tea">
           <img src="./resources/images/img-bedford-bizarre.jpg" alt="Cup of tea">
           <span>Bedford Bizarre Tea</span>
         </div>
+
       </div>
 
     </section>
 
+    <!-- End featured tea -->
+
+    <!-- Locations section -->
+
+    <section class="flex-container" id="locations">
+
+      <h2>Locations</h2>
+
+      <div class="flex-container">
+
+        <div class="location black">
+          <h3>Downtown</h3>
+          <span>384 West 4th St</span>
+          <span>suite 108</span>
+          <span>Portland, Maine</span>
+        </div>
+
+        <div class="location black">
+          <h3>East Bayside</h3>
+          <span>3343 Phisherman's Avenue</span>
+          <span>(Northwest Corner)</span>
+          <span>Portland, Maine</span>
+        </div>
+
+        <div class="location black">
+          <h3>Downtown</h3>
+          <span>515 Crescent Avenue</span>
+          <span>Second Floor</span>
+          <span>Portland, Maine</span>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- End locations -->
+
+    <!-- Contact section -->
+
+    <section class="contact flex-container">
+
+      <h2>The Tea Cozy</h2>
+      <h5>contact@theteacozy.com</h5>
+      <h5>917-555-8904</h5>
+
+    </section>
+
+    <!-- End contact -->
+
   </main>
+
+  <!-- End main -->
+
+  <!-- Footer -->
+
+  <footer>
+    <span>copyright The Tea Cozy 2017</span>
+  </footer>
+
+  <!-- End footer -->
+
 </body>
 
 </html>

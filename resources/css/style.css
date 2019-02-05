@@ -1,9 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-/*  border: solid 1px white; */
+}
+
+/* black-90 used for 0.9 opacity backgrounds */
+.black-90 {
   background-color: black;
   opacity: 0.9;
+}
+
+/* black used for opaque backgrounds */
+.black {
+  background-color: black;
 }
 
 a,
@@ -11,9 +19,10 @@ body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  opacity: 0.9;
   text-align: center;
 }
+
+/* Header section css */
 
 header {
   display: flex;
@@ -37,14 +46,17 @@ header nav {
 
 nav a {
   margin-left: 20px;
-  text-decoration: underline;
-  /* Included per design spec */
+  text-decoration: underline;  /* Not really needed? */
 }
+
+/* Offset main content due to fixed header */
 
 main {
   top: 69px;
   position: relative;
 }
+
+/* Hero section css */
 
 .hero {
   margin: 0 auto;
@@ -65,17 +77,16 @@ main {
 }
 
 h2,
+h3,
 h4 {
   padding: 10px 0;
 }
 
+/* Tea section css */
+
 #featured {
   width: 1000px;
   margin: 50px auto;
-}
-
-section {
-  position: relative;
 }
 
 .flex-container {
@@ -98,5 +109,63 @@ section {
 .tea span {
   display: block;
   padding-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Location section css */
+
+#locations {
+  margin: 0 auto;
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  padding-top: 70px;
+  align-content: flex-start;
+}
+
+.location {
+  opacity: 1;
+  margin: 15px 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2,
+h3,
+h5,
+.location span {
+  flex-basis: 100%;
+}
+
+#locations h2,
+#locations span {
+  margin: 20px 0;
+}
+
+/* Contact section css */
+
+.contact {
+  width: 100%;
+  height: 200px;
+  align-content: flex-start;
+}
+
+.contact h2 {
+  margin-bottom: 25px;
+}
+
+h5 {
+  margin: 15px 0;
+}
+
+/* Footer section css */
+
+footer {
+  margin: 120px 0 40px 20px;
+  position: relative;
+  text-align: left;
   font-weight: bold;
 }
